@@ -1,0 +1,15 @@
+[package]
+name = "basm"
+version = "0.1.0"
+authors = ["Nicolas 'Montessquio' Suarez <nsuarez@kernelstack.net>"]
+description = "An assembler for the Butka Instruction Set (basm)."
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+clap = "2.33.3"
+log = "0.4.14"
+fern = "0.6.0"
+chrono = "0.4.19"
+regex = "1.5.4"
+term_grid = "0.2.0"
